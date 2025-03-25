@@ -1,0 +1,46 @@
+{
+    "projects":[
+        {
+            "name":"QUEEN'S SOLVER",
+            "description":"A chrome extension which solves daily queen's problem using js",
+            "tags":["js","Backtracking","Extension"],
+            "detailed-d":"",
+            "git":""
+        },
+        {
+            "name":"TIC-TAC-TOE BOT",
+            "description":"A computer with higher stratergic mind win or draws the opponent with tic-tac-toe",
+            "tags":["JAVA","game theory","awt","swing","javafx"],
+            "detailed-d":"",
+            "git":""
+        },
+        {
+            "name":"QR ENCRYPTION",
+            "description":"",
+            "tags":["cryptography","visual-crytography","qr","python"],
+            "detailed-d":"",
+            "git":""
+        },
+        {
+            "name":"STIMULUS",
+            "description":"A discord bot used to give morivational quotes that relaxes user.",
+            "tags":["discord.js","nodejs","js"],
+            "detailed-d":"",
+            "git":""
+        },
+        {
+            "name":"MINESWEEPER",
+            "description":"A classic 90's minesweeper game with different difficulty",
+            "tags":["java","swing","bfs"],
+            "detailed-d":"",
+            "git":""
+        },
+        {
+            "name":"CYPHER",
+            "description":"Encrypting  a file by various scrambling algorithm",
+            "tags":["C","cryptography"],
+            "detailed-d":"",
+            "git":""
+        }
+    ]
+}
