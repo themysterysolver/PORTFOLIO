@@ -16,7 +16,7 @@
         },
         {
             "name":"QR ENCRYPTION",
-            "description":"",
+            "description":"Secure QR transfer via blockchian which is secure through visual crptography",
             "tags":["cryptography","visual-crytography","qr","python"],
             "detailed-d":"",
             "git":""

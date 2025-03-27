@@ -33,5 +33,10 @@ html {
 }
 section{
     border: solid 1px;
-    height: 100vh;
+}
+.card{
+    padding: 10%;
+}
+h2{
+    padding: 2%;;
 }
