@@ -10,14 +10,14 @@
         {
             "name":"TIC-TAC-TOE BOT",
             "description":"A computer with higher stratergic mind win or draws the opponent with tic-tac-toe",
-            "tags":["JAVA","game theory","awt","swing","javafx"],
+            "tags":["JAVA","game theory","javafx"],
             "detailed-d":"",
             "git":"https://github.com/themysterysolver/BOT-TIC-TAC-TOE"
         },
         {
             "name":"QR ENCRYPTION",
             "description":"Secure QR transfer via blockchian which is secure through visual crptography",
-            "tags":["cryptography","visual-crytography","qr","python"],
+            "tags":["visual-crytography","qr","python"],
             "detailed-d":"",
             "git":""
         },

@@ -1,17 +1,17 @@
 fetch('projects.json').then(response=>response.json()).then(data=>{
     console.log(data);
-    const proj=document.getElementById("projects");
+    const proj=document.getElementById("projects1");
 
     let row=document.createElement("div");
-    row.classList.add("row","gap-4","justify-content-center");
+    row.classList.add("row","g-4","justify-content-center");
 
-    data.projects.forEach(el=>{
+    data.projects.forEach((el, index)=>{
         let col=document.createElement("div");
         col.classList.add("col-lg-3", "col-md-6", "col-12", "d-flex");
 
         let main_div=document.createElement("div");
-        main_div.classList.add("card");
-        main_div.style.width="18rem";
+        main_div.classList.add("card","flex-grow-1");
+        //main_div.style.width="18rem";
 
         let body_div=document.createElement("div");
         body_div.classList.add("card-body");
@@ -33,6 +33,21 @@ fetch('projects.json').then(response=>response.json()).then(data=>{
         main_div.appendChild(body_div);
         main_div.appendChild(title);
         main_div.appendChild(content);
+
+        let label=document.createElement("label");
+        label.innerHTML="Tag:"
+
+        let tagContainer = document.createElement("div");
+        tagContainer.classList.add("tag-container");
+        tagContainer.appendChild(label);
+        el.tags.forEach(y=>{
+            let nb = document.createElement("button");
+            nb.innerHTML=y;
+            nb.classList.add("tag-btn","btn","btn-outline-primary");
+            tagContainer.appendChild(nb);
+        });
+        main_div.appendChild(tagContainer);
+
         main_div.appendChild(github);
 
         col.appendChild(main_div);
