@@ -25,7 +25,7 @@ fetch('projects.json').then(response=>response.json()).then(data=>{
         content.innerHTML=el.description;
 
         let github=document.createElement("a");
-        github.classList.add("btn","btn-primary","w-10");
+        github.classList.add("btn","btn-secondary","w-10");
         github.href=el.git;
         github.innerHTML="Git"
         github.target="_blank"
