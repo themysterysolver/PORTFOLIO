@@ -7,6 +7,7 @@
 
 ---
 - `<p>` is a block level elment.
+- `.img-fluid` sclaes properly on all size screens!
 #### fetch()
 - It is a *js function* that makes **HTTP req** to fecth a *file or API*
 - It returns a ***promise** that is it doens't return `data` immediately but **waits for file to load**.

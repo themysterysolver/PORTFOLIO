@@ -28,7 +28,6 @@ html {
     width: 100vw;
 }
 #home{
-    height: 50vh;
     padding:10%;
 }
 section{
@@ -43,6 +42,9 @@ h2,h3,h4{
 }
 .pic{
     margin-bottom: 2%;
+}
+.image{
+    margin-bottom: 1%;
 }
 #intro{
     text-align: justify;
